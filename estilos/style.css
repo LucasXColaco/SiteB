@@ -9,7 +9,7 @@ html {
 
 main {
   background-color: #c9c999;
-  height: 2500px;
+  height: 2300px;
 }
 
 header {
@@ -31,6 +31,14 @@ h1 {
   margin-left: 20px;
 }
 
+hr {
+  border: solid #6e633d 2px;
+  border-radius: 10px;
+  width: 370px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 p {
   margin-left: 20px;
   margin-right: 20px;
@@ -50,6 +58,12 @@ section#apresentacao-produtos {
 
 section#apresentacao-produtos > h1 {
   grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+section#apresentacao-produtos > hr {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 section#apresentacao-produtos > p {
@@ -83,6 +97,13 @@ section#outros-produtos > h1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
+  height: 50px;
+  margin-bottom: 0;
+}
+
+section#outros-produtos > hr {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 section#outros-produtos > img {
@@ -118,7 +139,8 @@ section#avaliacao-clientes {
 
 section#avaliacao-clientes > article {
   background-color: #cbc67a;
-  margin-bottom: 10px;
+  width: 350px;
+  margin: 15px auto;
 }
 
 section#avaliacao-clientes > article > h2 {
@@ -186,12 +208,14 @@ button > a {
 }
 
 footer {
+  position: relative;
+  bottom: 0px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 25% 25% 25% 25%;
   background-color: #6e633d;
   margin: 0;
-  height: 150px;
+  height: 160px;
 }
 
 footer > h2 {
