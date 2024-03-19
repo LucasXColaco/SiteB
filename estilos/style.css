@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+body,
+html {
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  background-color: #c9c999;
+  height: 2050px;
+}
+
+header {
+  display: flex;
+  background-color: #6e633d;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+header > a > img {
+  width: 100px;
+  height: 70px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+video {
+  display: block;
+  width: 360px;
+  margin: 30px auto;
+  background-color: black;
+}
+
+section#apresentacao-produtos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+section#apresentacao-produtos > h1 {
+  grid-column-start: 1;
+}
+
+section#apresentacao-produtos > p {
+  grid-column-start: 1;
+}
+
+section#apresentacao-produtos > img {
+  grid-column-start: 2;
+  background-color: black;
+  margin: 20px;
+  width: 200px;
+}
+
+body > h1 {
+  text-align: center;
+}
+
+section#outros-produtos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  height: 500px;
+}
+
+section#outros-produtos > h1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+}
+
+section#outros-produtos > img {
+  width: 170px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+section#outros-produtos > img:nth-child(1) {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+section#outros-produtos > img:nth-child(2) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+section#outros-produtos > img:nth-child(3) {
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+section#outros-produtos > img:nth-child(4) {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+section#avaliacao-clientes {
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  border-radius: 10px;
+}
+
+section#avaliacao-clientes > article {
+  background-color: #cbc67a;
+  margin-bottom: 10px;
+}
+
+section#avaliacao-clientes > article > h2 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+section#avaliacao-clientes > article > p {
+  padding-bottom: 40px;
+}
+
+section#avaliacao-clientes > article > h2:nth-child(1) {
+  grid-row-start: 2;
+  font-size: 20px;
+}
+
+section#avaliacao-clientes > article > p:nth-child(1) {
+  grid-row-start: 2;
+}
+
+section#avaliacao-clientes > article > h2:nth-child(2) {
+  grid-row-start: 3;
+}
+
+section#avaliacao-clientes > article > p:nth-child(2) {
+  grid-row-start: 3;
+}
+
+section#avaliacao-clientes > article > h2:nth-child(3) {
+  grid-row-start: 4;
+}
+
+section#avaliacao-clientes > article > p:nth-child(3) {
+  grid-row-start: 4;
+}
+
+section#avaliacao-clientes > article > h2:nth-child(4) {
+  grid-row-start: 5;
+}
+
+section#avaliacao-clientes > article > p:nth-child(4) {
+  grid-row-start: 5;
+}
+
+button {
+  background-color: transparent;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+}
+
+button > a {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  background-image: url("../WhatsApp.svg");
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+  background-color: #6e633d;
+  margin: 0;
+  height: 150px;
+}
+
+footer > h2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer > img {
+  width: 50px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+footer > img:nth-child(1) {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+footer > img:nth-child(2) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+footer > img:nth-child(3) {
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+footer > img:nth-child(4) {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
