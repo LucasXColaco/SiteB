@@ -33,6 +33,7 @@ h1 {
 
 p {
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 video {
@@ -44,7 +45,7 @@ video {
 
 section#apresentacao-produtos {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 60%;
 }
 
 section#apresentacao-produtos > h1 {
@@ -54,12 +55,13 @@ section#apresentacao-produtos > h1 {
 section#apresentacao-produtos > p {
   display: inline;
   width: 150px;
+  margin-right: 20px;
   grid-column-start: 1;
 }
 
 section#apresentacao-produtos > img {
   display: inline;
-  grid-column-start: 1;
+  grid-column-start: 2;
   background-color: black;
   margin: 20px;
   margin-right: 0;
