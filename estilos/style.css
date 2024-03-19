@@ -59,7 +59,8 @@ section#apresentacao-produtos > img {
   grid-column-start: 2;
   background-color: black;
   margin: 20px;
-  width: 200px;
+  margin-right: 0;
+  width: 150px;
 }
 
 body > h1 {
