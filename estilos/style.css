@@ -59,7 +59,7 @@ section#apresentacao-produtos > p {
 
 section#apresentacao-produtos > img {
   display: inline;
-  grid-column-start: 2;
+  grid-column-start: 1;
   background-color: black;
   margin: 20px;
   margin-right: 0;
