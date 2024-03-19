@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Doppio+One&display=swap");
+
 body,
 html {
   height: 100vh;
@@ -9,7 +11,8 @@ html {
 
 main {
   background-color: #c9c999;
-  height: 2300px;
+  height: 2505px;
+  font-family: "Doppio One", sans-serif;
 }
 
 header {
@@ -149,7 +152,7 @@ section#avaliacao-clientes > article > h2 {
 }
 
 section#avaliacao-clientes > article > p {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 section#avaliacao-clientes > article > h2:nth-child(1) {
