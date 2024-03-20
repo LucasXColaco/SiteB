@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Doppio+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Karma:wght@300;400;500;600;700&display=swap');
 
 body,
 html {
@@ -9,18 +10,15 @@ html {
   margin: 0px;
 }
 
-body{
-  background-color: #c9c999;
-}
-
 main {
-  background-color: #c9c999;
-  font-family: "Doppio One", sans-serif;
+  background-color: #fdf0d59f;
+  font-family: "Karma", serif;
 }
 
 header {
   display: flex;
-  background-color: #6e633d;
+  background-color: #332118;
+  color: white;
   height: 100px;
   justify-content: center;
   align-items: center;
@@ -32,13 +30,14 @@ header > a > img {
 }
 
 h1 {
+  text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  margin-bottom: 0;
+  font-size: 30px;
 }
 
 hr {
-  border: solid #6e633d 2px;
+  border: solid #332118 2px;
   border-radius: 10px;
   width: 350px;
   margin: 0 auto;
@@ -58,106 +57,103 @@ video {
 }
 
 section#apresentacao-produtos {
-  display: grid;
-  grid-template-columns: 40% 60%;
+  display: flex;
+  flex-direction: column;
 }
 
-section#apresentacao-produtos > h1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
+section#apresentacao-produtos > article{
+  display: flex;
+  justify-content: space-between;
 }
 
-section#apresentacao-produtos > hr {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-section#apresentacao-produtos > p {
+section#apresentacao-produtos > article > p {
   display: inline;
   width: 150px;
   margin-right: 20px;
-  grid-column-start: 1;
 }
 
-section#apresentacao-produtos > img {
+section#apresentacao-produtos > article > img {
   display: inline;
-  grid-column-start: 2;
   background-color: black;
   margin: 20px;
   margin-right: 0;
+  align-self: center;
+  height: 200px;
   width: 200px;
 }
 
-body > h1 {
-  text-align: center;
-}
-
 section#outros-produtos {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
   height: 500px;
 }
 
 section#outros-produtos > h1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  height: 50px;
+  text-align: start;
   margin-bottom: 0;
-}
-
-section#outros-produtos > hr {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  height: 0;
 }
 
 section#outros-produtos > img {
   width: 170px;
-  margin-bottom: 10px;
-  margin: auto;
-}
-
-section#outros-produtos > img:nth-child(1) {
-  grid-column-start: 1;
-  grid-row-start: 2;
-}
-section#outros-produtos > img:nth-child(2) {
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
-section#outros-produtos > img:nth-child(3) {
-  grid-column-start: 1;
-  grid-row-start: 4;
-}
-
-section#outros-produtos > img:nth-child(4) {
-  grid-column-start: 2;
-  grid-row-start: 4;
+  margin-top: 20px;
 }
 
 section#avaliacao-clientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-radius: 20px;
-  height: 900px;
 }
 
 section#avaliacao-clientes > article {
   display: block;
   border-radius: 10px;
-  background-color: #cbc67a;
+  background-color: #ffffff;
   width: 350px;
-  margin: 15px auto;
+  margin: 30px auto;
 }
 
 section#avaliacao-clientes > article > h2 {
+  padding-top: 10px;
   margin-left: 20px;
   font-size: 20px;
 }
 
 section#avaliacao-clientes > article > p {
   padding-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #332118;
+  color: white;
+  margin: 0;
+  height: 180px;
+}
+
+footer > h2 {
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer > div{
+  display: flex;
+}
+
+footer > div > a{
+  width: 50px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+footer > div > a > img{
+  width: 50px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 button {
@@ -180,47 +176,4 @@ button > a {
   border: none;
   border-radius: 50%;
   background-image: url("../WhatsApp.svg");
-}
-
-footer {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 25% 25% 25% 25%;
-  background-color: #6e633d;
-  margin: 0;
-  height: 160px;
-}
-
-footer > h2 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  margin: 0;
-  padding-top: 10px;
-  text-align: center;
-}
-
-footer > img {
-  width: 50px;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
-footer > img:nth-child(1) {
-  grid-column-start: 1;
-  grid-row-start: 2;
-}
-
-footer > img:nth-child(2) {
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
-footer > img:nth-child(3) {
-  grid-column-start: 1;
-  grid-row-start: 4;
-}
-
-footer > img:nth-child(4) {
-  grid-column-start: 2;
-  grid-row-start: 4;
 }
