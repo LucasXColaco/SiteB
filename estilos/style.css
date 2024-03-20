@@ -106,6 +106,7 @@ section#outros-produtos > h1 {
 section#outros-produtos > hr {
   grid-column-start: 1;
   grid-column-end: 3;
+  height: 0;
 }
 
 section#outros-produtos > img {
