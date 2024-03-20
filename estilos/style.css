@@ -11,13 +11,13 @@ html {
 }
 
 main {
-  background-color: #fdf0d59f;
+  background-color: white;
   font-family: "Karma", serif;
 }
 
 header {
   display: flex;
-  background-color: #332118;
+  background-color: #282828;
   color: white;
   height: 100px;
   justify-content: center;
@@ -29,6 +29,25 @@ header > a > img {
   height: 70px;
 }
 
+section#apresentacao {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+section#apresentacao::before {
+  content: "";
+  background-image: url("../fundo.jpg");
+  background-size: cover;
+  filter: brightness(30%);
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  bottom: 33px;
+  left: 0px;
+  opacity: 40%;
+}
+
 h1 {
   text-align: center;
   margin-top: 20px;
@@ -37,7 +56,7 @@ h1 {
 }
 
 hr {
-  border: solid #332118 2px;
+  border: solid #816347 2px;
   border-radius: 10px;
   width: 350px;
   margin: 0 auto;
@@ -59,6 +78,7 @@ video {
 section#apresentacao-produtos {
   display: flex;
   flex-direction: column;
+  background-color: #f7f7f7;
 }
 
 section#apresentacao-produtos > article {
@@ -88,11 +108,18 @@ section#outros-produtos {
   align-content: center;
   justify-content: space-evenly;
   height: 500px;
+  background: #45050c;
+  padding-bottom: 20px;
 }
 
 section#outros-produtos > h1 {
   text-align: start;
   margin-bottom: 0;
+  color: white;
+}
+
+section#outros-produtos > hr {
+  border: solid #f2f3ae 2px;
 }
 
 section#outros-produtos > img {
@@ -104,7 +131,7 @@ section#avaliacao-clientes {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 20px;
+  background-color: #f2f3ae;
 }
 
 section#avaliacao-clientes > article {
@@ -113,6 +140,7 @@ section#avaliacao-clientes > article {
   background-color: #ffffff;
   width: 350px;
   margin: 30px auto;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.145);
 }
 
 section#avaliacao-clientes > article > h2 {
@@ -128,10 +156,10 @@ section#avaliacao-clientes > article > p {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #332118;
+  background-color: #282828;
   color: white;
   margin: 0;
-  height: 188px;
+  height: 190px;
 }
 
 footer > h2 {
