@@ -108,7 +108,7 @@ section#outros-produtos {
   align-content: center;
   justify-content: space-evenly;
   height: 500px;
-  background: #45050c;
+  background: #3b050b;
   padding-bottom: 20px;
 }
 
@@ -131,7 +131,7 @@ section#avaliacao-clientes {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #f2f3ae;
+  background-color: #e4e4e7;
 }
 
 section#avaliacao-clientes > article {
