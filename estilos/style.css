@@ -134,13 +134,13 @@ section#outros-produtos > img:nth-child(4) {
 }
 
 section#avaliacao-clientes {
-  display: grid;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-  border-radius: 10px;
+  border-radius: 20px;
+  height: 900px;
 }
 
 section#avaliacao-clientes > article {
   display: block;
+  border-radius: 10px;
   background-color: #cbc67a;
   width: 350px;
   margin: 15px auto;
@@ -152,7 +152,7 @@ section#avaliacao-clientes > article > h2 {
 }
 
 section#avaliacao-clientes > article > p {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 button {
@@ -178,8 +178,6 @@ button > a {
 }
 
 footer {
-  position: relative;
-  bottom: 0px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 25% 25% 25% 25%;
