@@ -87,6 +87,20 @@ section#apresentacao > p {
   margin-right: 20px;
 }
 
+section#apresentacao > a#fale-conosco {
+  display: block;
+  margin: 20px 80px;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 99999px;
+  background-color: #7c0f0c;
+}
+
 section#produtos {
   display: flex;
   flex-wrap: wrap;
@@ -252,7 +266,7 @@ button#whatsapp > a {
   height: 50px;
   border: none;
   border-radius: 50%;
-  background-color: #25D366;
+  background-color: #25d366;
   background-image: url("../WhatsApp.png");
   background-size: cover;
 }
