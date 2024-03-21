@@ -145,7 +145,7 @@ section#quem-somos > article > p {
 section#quem-somos > article > img {
   display: inline;
   margin: 20px;
-  margin-right: 0;
+  margin-left: 0;
   align-self: center;
   border-radius: 5px;
   height: 50vw;
