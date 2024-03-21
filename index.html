@@ -10,13 +10,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos\style.css" />
     <link rel="shortcut icon" href="imagens/ART-logo.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,200"
+      rel="stylesheet"
+    />
     <title>MeuProjetoIndustrial</title>
   </head>
   <body>
     <main>
       <header>
-        <img src="imagens/ART-logo.ico" alt="logotipo" />
-        <a href="https://wa.me/5585999999999" id="fale-conosco">Fale Conosco</a>
+        <nav>
+          <img src="imagens/ART-logo.ico" alt="logotipo" />
+          <span
+            class="material-symbols-outlined"
+            onclick="openMenu()"
+            id="menuicon"
+            >menu</span
+          >
+          <menu id="menu">
+            <span class="material-symbols-outlined" onclick="closeMenu()" id="closeicon">close</span>
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="https://wa.me/5585999999999" id="fale-conosco"
+              >Fale Conosco</a
+            >
+          </menu>
+        </nav>
       </header>
 
       <section id="apresentacao">
@@ -153,5 +172,6 @@
         <p>MeuProjetoIndustrial Ltda. © 2024. All Rights Reserved.</p>
       </footer>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
