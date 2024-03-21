@@ -147,6 +147,7 @@ section#quem-somos > article > img {
   margin: 20px;
   margin-right: 0;
   align-self: center;
+  border-radius: 5px;
   height: 50vw;
   width: 50vw;
 }
