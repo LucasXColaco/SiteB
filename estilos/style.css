@@ -379,8 +379,3 @@ footer > p {
   font-weight: lighter;
   text-align: center;
 }
-
-footer::after {
-  content: "";
-  background-color: #1f1f1f;
-}
