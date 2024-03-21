@@ -69,17 +69,22 @@ header > nav > menu {
 
 header > nav > menu > span.material-symbols-outlined {
   margin-top: 80px;
+  margin-bottom: 50px;
   font-size: 60px;
 }
 
 header > nav > menu > a {
   display: block;
   position: relative;
-  padding: 20px;
+  padding: 15px;
   text-decoration: none;
   color: white;
   font-size: 20px;
   font-weight: bold;
+}
+
+header > nav > menu > a:nth-child(4) {
+  padding-bottom: 50px;
 }
 
 header > nav > menu > a#fale-conosco {
@@ -92,7 +97,7 @@ header > nav > menu > a#fale-conosco {
   text-decoration: none;
   color: white;
   border-radius: 99999px;
-  background-color: #450907;
+  background-color: #7c0f0c;
 }
 
 section#apresentacao {
