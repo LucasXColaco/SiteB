@@ -60,7 +60,7 @@ p {
 }
 
 section#apresentacao {
-  background-image: url("../fundo.png");
+  background-image: url("../imagens/fundo.png");
   background-color: rgb(214, 214, 214);
   background-repeat: no-repeat;
   background-size: cover;
@@ -269,7 +269,7 @@ button#whatsapp > a {
   border: none;
   border-radius: 50%;
   background-color: #25d366;
-  background-image: url("../WhatsApp.png");
+  background-image: url("../imagens/WhatsApp.png");
   background-size: cover;
 }
 
