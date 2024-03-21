@@ -240,6 +240,28 @@ section#contato > article > a {
   text-decoration: none !important;
 }
 
+button#whatsapp {
+  background-color: transparent;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+}
+
+button#whatsapp > a {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  background-image: url("../WhatsApp.svg");
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -271,24 +293,7 @@ footer > div > a > img {
   padding-top: 10px;
 }
 
-button#whatsapp {
-  background-color: transparent;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 70px;
-  height: 70px;
-  border: none;
-  border-radius: 50%;
-}
-
-button#whatsapp > a {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 70px;
-  height: 70px;
-  border: none;
-  border-radius: 50%;
-  background-image: url("../WhatsApp.svg");
+footer::before{
+  content: '';
+  background-color: #1f1f1f;
 }
