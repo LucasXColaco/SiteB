@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 body,
 html {
   height: 100vh;
@@ -12,32 +13,7 @@ html {
 
 main {
   background-color: #1f1f1f;
-  font-family: "Roboto Flex", sans-serif;
-}
-
-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 150px;
-  color: white;
-  background-color: #1f1f1f;
-}
-
-header > a > img {
-  width: 100px;
-  height: 70px;
-}
-
-header > a#fale-conosco {
-  padding: 12px 30px;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius: 99999px;
-  background-color: #7c0f0c;
+  font-family: "Public Sans", sans-serif;
 }
 
 h1 {
@@ -47,13 +23,34 @@ h1 {
   text-align: center;
 }
 
-h1 > span.red {
-  color: #7c0f0c;
-}
-
 p {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  color: white;
+  background-color: #261e1e;
+}
+
+header > img {
+  width: 100px;
+  height: 70px;
+}
+
+header > a#fale-conosco {
+  padding: 12px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 99999px;
+  background-color: #7c0f0c;
 }
 
 section#apresentacao {
@@ -75,6 +72,10 @@ section#apresentacao > h1 {
   text-align: left;
 }
 
+section#apresentacao > h1 > span.red {
+  color: #7c0f0c;
+}
+
 section#apresentacao > p {
   width: 75vw;
   margin-left: 20px;
@@ -87,7 +88,7 @@ section#apresentacao > a#fale-conosco {
   margin: 20px 80px;
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -98,34 +99,39 @@ section#apresentacao > a#fale-conosco {
 
 section#produtos {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-content: center;
   justify-content: space-evenly;
-  height: 440px;
-  padding-bottom: 80px;
-  padding-top: 20px;
+  padding-top: 30px;
   background: #ffffff;
 }
 
 section#produtos > h1 {
-  display: block;
-  width: 100%;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   padding-left: 20px;
-  font-size: 50px;
+  font-size: 47px;
+  text-align: left;
+}
+
+section#produtos > h2 {
+  padding-left: 20px;
+  font-size: 27px;
   text-align: left;
 }
 
 section#produtos > img {
-  width: 170px;
-  margin-top: 20px;
-  border-radius: 5px;
-  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.359);
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+section#produtos > img:nth-child(9) {
+  margin-bottom: 0px;
 }
 
 section#quem-somos {
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
   background-color: #bdbdbd;
 }
 
@@ -136,7 +142,7 @@ section#quem-somos > article {
 
 section#quem-somos > h1 {
   padding-left: 20px;
-  font-size: 60px;
+  font-size: 70px;
   text-align: left;
 }
 
@@ -144,28 +150,32 @@ section#quem-somos > article > div {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 30px;
 }
 
-section#quem-somos > article > div > p {
-  display: inline;
-  width: 150px;
-  margin-right: 20px;
+section#quem-somos > article > p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-section#quem-somos > article > div > img {
-  display: inline;
-  align-self: center;
-  height: 180px;
-  width: 180px;
-  margin: 20px;
+section#quem-somos > article > img {
+  width: 100%;
+  margin-bottom: 50px;
   border-radius: 5px;
+}
+
+section#quem-somos > article > h2 {
+  padding-left: 20px;
+  font-size: 30px;
+  text-align: left;
 }
 
 section#quem-somos > article > iframe {
   display: block;
-  width: 360px;
-  height: 190px;
-  margin: 30px auto;
+  width: 100%;
+  height: 220px;
+  margin: 70px auto;
+  margin-top: 0;
   background-color: black;
 }
 
@@ -173,16 +183,21 @@ section#avaliacao-clientes {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: white;
-  background-color: #2b0504;
+  padding: 50px 0;
+  background-color: white;
+}
+
+section#avaliacao-clientes > h1 {
+  padding-left: 20px;
+  text-align: left;
+  font-size: 50px;
 }
 
 section#avaliacao-clientes > article {
   display: block;
   width: 350px;
   margin: 30px auto;
-  color: black;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   border-radius: 7px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.145);
 }
@@ -201,9 +216,9 @@ section#contato {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #f7f7f7;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #bdbdbd;
 }
 
 section#contato > article {
@@ -280,17 +295,26 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 0;
-  height: 350px;
+  height: 950px;
   color: white;
-  background-color: #1f1f1f;
+  background-color: #261e1e;
+  overflow-y: hidden;
+}
+
+footer > img {
+  width: 100px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 70px;
+  padding-bottom: 0;
 }
 
 footer > h2 {
   margin: 0;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 30px;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 40px;
 }
 
@@ -306,9 +330,54 @@ footer > div > a {
 
 footer > div > a > img {
   width: 50px;
+  height: 35px;
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 50px;
+}
+
+footer > a#entre-em-contato {
+  display: block;
+  margin: 30px 80px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 99999px;
+  background-color: #7c0f0c;
+}
+
+footer > h2#redes {
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+footer > div#logos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+footer > div#logos > a {
+  width: 40px;
+  height: 40px;
+  margin: 0 20px;
+}
+
+footer > div#logos > a > img {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+footer > p {
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 footer::after {
