@@ -17,7 +17,6 @@ main {
 }
 
 h1 {
-  margin-top: 20px;
   margin-bottom: 0;
   font-size: 30px;
   text-align: center;
@@ -32,7 +31,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 150px;
+  height: 120px;
   color: white;
   background-color: #261e1e;
 }
@@ -54,7 +53,6 @@ header > a#fale-conosco {
 }
 
 section#apresentacao {
-  padding-top: 10px;
   padding-bottom: 30px;
   background-image: url("../imagens/fundo.png");
   background-color: #d6d6d6;
@@ -63,9 +61,9 @@ section#apresentacao {
 }
 
 section#apresentacao > h1 {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 20px;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 20px;
   font-size: 60px;
   font-weight: bold;
@@ -102,12 +100,11 @@ section#produtos {
   flex-direction: column;
   align-content: center;
   justify-content: space-evenly;
-  padding-top: 30px;
+  padding-top: 10px;
   background: #ffffff;
 }
 
 section#produtos > h1 {
-  margin-bottom: 20px;
   padding-left: 20px;
   font-size: 47px;
   text-align: left;
@@ -119,9 +116,13 @@ section#produtos > h2 {
   text-align: left;
 }
 
+section#produtos > h2:nth-child(2) {
+  margin-top: 20px;
+}
+
 section#produtos > img {
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 section#produtos > img:nth-child(9) {
@@ -295,7 +296,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 0;
-  height: 950px;
+  height: 880px;
   color: white;
   background-color: #261e1e;
 }
@@ -357,7 +358,7 @@ footer > h2#redes {
 footer > div#logos {
   display: flex;
   justify-content: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 footer > div#logos > a {
