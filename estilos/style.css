@@ -10,7 +10,7 @@ html {
 }
 
 main {
-  background-color: white;
+  background-color: #1f1f1f;
   font-family: "Roboto Flex", sans-serif;
 }
 
@@ -61,6 +61,7 @@ p {
 
 section#apresentacao {
   background-image: url("../fundo.png");
+  background-color: rgb(214, 214, 214);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10px;
@@ -202,8 +203,8 @@ section#avaliacao-clientes > article > p {
 section#contato {
   display: flex;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #f7f7f7;
   justify-content: center;
 }
