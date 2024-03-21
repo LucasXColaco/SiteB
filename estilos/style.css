@@ -161,9 +161,10 @@ section#quem-somos > article > div > img {
   width: 150px;
 }
 
-section#quem-somos > article > video {
+section#quem-somos > article > iframe {
   display: block;
   width: 360px;
+  height: 190px;
   margin: 30px auto;
   background-color: black;
 }
