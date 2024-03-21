@@ -136,20 +136,24 @@ section#quem-somos > article {
   flex-wrap: wrap;
 }
 
-section#quem-somos > article > p {
+section#quem-somos > article > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+section#quem-somos > article > div > p {
   display: inline;
-  width: 130px;
+  width: 150px;
   margin-right: 20px;
 }
 
-section#quem-somos > article > img {
+section#quem-somos > article > div > img {
   display: inline;
   margin: 20px;
-  margin-left: 0;
   align-self: center;
   border-radius: 5px;
-  height: 50vw;
-  width: 50vw;
+  height: 150px;
+  width: 150px;
 }
 
 section#quem-somos > article > video {
