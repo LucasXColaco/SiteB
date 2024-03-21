@@ -61,7 +61,7 @@ p {
 
 section#apresentacao {
   background-image: url("../imagens/fundo.png");
-  background-color: rgb(214, 214, 214);
+  background-color: #d6d6d6;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10px;
