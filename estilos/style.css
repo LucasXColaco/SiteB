@@ -17,9 +17,9 @@ main {
 
 header {
   display: flex;
-  background-color: #282828;
+  background-color: #1f1f1f;
   color: white;
-  height: 100px;
+  height: 120px;
   justify-content: space-around;
   align-items: center;
 }
@@ -72,9 +72,9 @@ section#apresentacao::before {
   background-size: cover;
   filter: brightness(30%);
   position: absolute;
-  top: 100px;
+  top: 120px;
   right: 0px;
-  bottom: 256px;
+  bottom: 420px;
   left: 0px;
   opacity: 40%;
 }
