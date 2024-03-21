@@ -132,7 +132,6 @@ section#produtos > img:nth-child(9) {
 section#quem-somos {
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
   background-color: #bdbdbd;
 }
 
