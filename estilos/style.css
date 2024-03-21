@@ -209,6 +209,8 @@ section#contato > article > h2 {
 section#contato > article > p {
   margin-top: 30px;
   padding-bottom: 20px;
+  text-decoration: none !important;
+  color: white !important;
 }
 
 section#contato > article > p:nth-child(2) {
