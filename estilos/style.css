@@ -50,7 +50,7 @@ h1 {
 hr {
   border: solid #2b0504 2px;
   border-radius: 10px;
-  width: 350px;
+  width: 330px;
   margin: 0 auto;
   text-align: center;
 }
@@ -125,34 +125,34 @@ section#produtos > img {
   border-radius: 5px;
 }
 
-section#apresentacao-produtos {
+section#quem-somos {
   display: flex;
   flex-direction: column;
   background-color: #f7f7f7;
 }
 
-section#apresentacao-produtos > article {
+section#quem-somos > article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-section#apresentacao-produtos > article > p {
+section#quem-somos > article > p {
   display: inline;
   width: 150px;
   margin-right: 20px;
 }
 
-section#apresentacao-produtos > article > img {
+section#quem-somos > article > img {
   display: inline;
   margin: 20px;
   margin-right: 0;
   align-self: center;
-  height: 200px;
-  width: 200px;
+  height: 190px;
+  width: 190px;
 }
 
-section#apresentacao-produtos > article > video {
+section#quem-somos > article > video {
   display: block;
   width: 360px;
   margin: 30px auto;
@@ -163,11 +163,17 @@ section#avaliacao-clientes {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #e4e4e7;
+  background-color: #2b0504;
+  color: white;
+}
+
+section#avaliacao-clientes > hr {
+  border: solid #f2f3ae 2px;
 }
 
 section#avaliacao-clientes > article {
   display: block;
+  color: black;
   border-radius: 7px;
   background-color: #ffffff;
   width: 350px;
