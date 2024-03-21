@@ -61,22 +61,11 @@ p {
 }
 
 section#apresentacao {
-  background-color: #f7f7f7;
+  background-image: url("../fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 10px;
   padding-bottom: 30px;
-}
-
-section#apresentacao::before {
-  content: "";
-  background-image: url("../fundo.jpg");
-  background-size: cover;
-  filter: brightness(30%);
-  position: absolute;
-  top: 120px;
-  right: 0px;
-  bottom: 420px;
-  left: 0px;
-  opacity: 40%;
 }
 
 section#apresentacao > h1 {
