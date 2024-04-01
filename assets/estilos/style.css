@@ -5,7 +5,7 @@
     align-items: center;
     height: 150px;
     color: white;
-    background-color: #261e1e;
+    background-color: #282323;
   }
 
   header > nav {
@@ -82,7 +82,7 @@
   }
 
   section#apresentacao > h1 {
-    width: 200px;
+    width: 470px;
     margin-top: 0;
     margin-bottom: 20px;
     padding-top: 20px;
@@ -137,6 +137,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 550px;
   }
 
   section#produtos > div > div {
@@ -151,7 +152,7 @@
     text-align: center;
   }
 
-  section#produtos > div > div > h2:nth-child(2) {
+  section#produtos > div > div > h2:nth-child(1) {
     margin-top: 20px;
   }
 
@@ -161,7 +162,273 @@
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.297);
   }
 
-  section#produtos > div > div > img:nth-child(9) {
+  section#produtos > div > div > img:nth-child(2) {
     margin-bottom: 100px;
+  }
+
+  section#quem-somos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+    background-color: #bdbdbd;
+  }
+
+  section#quem-somos > h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 80px;
+    text-align: center;
+  }
+
+  section#quem-somos > article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  section#quem-somos > article > div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  section#quem-somos > article > div > p {
+    width: 500px;
+    font-size: 18px;
+    padding-right: 70px;
+    margin-bottom: 20px;
+  }
+
+  section#quem-somos > article > div > img {
+    width: 500px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+
+  section#quem-somos > article > h2 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  section#quem-somos > article > iframe {
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+    background-color: black;
+  }
+
+  section#avaliacao-clientes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: white;
+  }
+
+  section#avaliacao-clientes > h1 {
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 55px;
+  }
+
+  section#avaliacao-clientes > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  section#avaliacao-clientes > div > article {
+    width: 350px;
+    margin: 30px 50px;
+    background-color: #f7f7f7;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.145);
+  }
+
+  section#avaliacao-clientes > div > article > h2 {
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  section#avaliacao-clientes > div > article > p {
+    padding-bottom: 30px;
+  }
+
+  section#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #bdbdbd;
+  }
+
+  section#contato > article {
+    width: 700px;
+    height: 600px;
+    color: white;
+    background-color: #1f1f1f;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.407);
+  }
+
+  section#contato > article > h2 {
+    padding-top: 150px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  section#contato > article > p {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none !important;
+    color: white !important;
+  }
+
+  section#contato > article > p:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  section#contato > article > p:nth-child(3) {
+    margin-top: 0;
+    padding-bottom: 80px;
+  }
+
+  section#contato > article > a {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #7c0f0c;
+    border-radius: 99999px;
+  }
+
+  button#whatsapp {
+    background-color: transparent;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  button#whatsapp > a {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #25d366;
+    background-image: url("../imagens/WhatsApp.png");
+    background-size: cover;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 920px;
+    color: white;
+    background-color: #282323;
+  }
+  
+  footer > img {
+    width: 100px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 70px;
+    padding-bottom: 0;
+  }
+  
+  footer > h2 {
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  footer > div {
+    display: flex;
+  }
+  
+  footer > div > a {
+    width: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  
+  footer > div > a > img {
+    width: 50px;
+    height: 35px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  footer > a#entre-em-contato {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 99999px;
+    background-color: #7c0f0c;
+  }
+  
+  footer > h2#redes {
+    font-size: 30px;
+    padding-top: 80px;
+  }
+  
+  footer > div#logos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  footer > div#logos > a {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+  }
+  
+  footer > div#logos > a > img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer > p {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
   }
 }
