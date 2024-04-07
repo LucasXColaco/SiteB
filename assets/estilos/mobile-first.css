@@ -2,6 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root{
+  --preto-fundo: #1f1f1f;
+  --vinho-fundo: #282323;
+  --vinho: #7c0f0c;
+  --cinza-leve: #f7f7f7;
+  --cinza-destaque: #bdbdbd;
+  --verde-whats: #25d366;
+}
+
 body,
 html {
   height: 100vh;
@@ -11,7 +20,7 @@ html {
 }
 
 main {
-  background-color: #1f1f1f;
+  background-color: var(--preto-fundo);
   font-family: "Public Sans", sans-serif;
 }
 
@@ -32,7 +41,7 @@ header {
   align-items: center;
   height: 90px;
   color: white;
-  background-color: #282323;
+  background-color: var(--vinho-fundo);
 }
 
 header > nav {
@@ -96,14 +105,14 @@ header > nav > menu > a#fale-conosco {
   text-decoration: none;
   color: white;
   border-radius: 99999px;
-  background-color: #7c0f0c;
+  background-color: var(--vinho);
 }
 
 section#apresentacao {
   height: calc(100dvh - 90px);
   padding-bottom: 30px;
   background-image: url("../imagens/fundo.png");
-  background-color: #d6d6d6;
+  background-color: var(--cinza-destaque);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -119,7 +128,7 @@ section#apresentacao > h1 {
 }
 
 section#apresentacao > h1 > span.red {
-  color: #7c0f0c;
+  color: var(--vinho);
 }
 
 section#apresentacao > p {
@@ -140,7 +149,7 @@ section#apresentacao > a#fale-conosco {
   color: white;
   padding: 12px 20px;
   border-radius: 99999px;
-  background-color: #7c0f0c;
+  background-color: var(--vinho);
 }
 
 section#produtos {
@@ -149,7 +158,7 @@ section#produtos {
   align-content: center;
   justify-content: space-evenly;
   padding-top: 10px;
-  background: #ffffff;
+  background: white;
 }
 
 section#produtos > h1 {
@@ -186,7 +195,7 @@ section#quem-somos {
   display: flex;
   flex-direction: column;
   padding-bottom: 70px;
-  background-color: #bdbdbd;
+  background-color: var(--cinza-destaque);
 }
 
 section#quem-somos > h1 {
@@ -245,7 +254,7 @@ section#avaliacao-clientes > div > article {
   display: block;
   width: 350px;
   margin: 30px auto;
-  background-color: #f7f7f7;
+  background-color: var(--cinza-leve);
   border-radius: 7px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.145);
 }
@@ -266,13 +275,13 @@ section#contato {
   text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
-  background-color: #bdbdbd;
+  background-color: var(--cinza-destaque);
 }
 
 section#contato > article {
   width: 100%;
   color: white;
-  background-color: #1f1f1f;
+  background-color: var(--preto-fundo);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.407);
 }
 
@@ -292,7 +301,7 @@ section#contato > article > p {
 }
 
 section#contato > article > p > a{
-  color: #7c0f0c;
+  color: var(--vinho);
 }
 
 section#contato > article > p:nth-child(2) {
@@ -315,7 +324,7 @@ section#contato > article > a {
   font-size: 20px;
   color: white !important;
   text-decoration: none !important;
-  background-color: #7c0f0c;
+  background-color: var(--vinho);
   border-radius: 99999px;
 }
 
@@ -338,7 +347,7 @@ button#whatsapp > a {
   height: 50px;
   border: none;
   border-radius: 50%;
-  background-color: #25d366;
+  background-color: var(--verde-whats);
   background-image: url("../imagens/WhatsApp.png");
   background-size: cover;
 }
@@ -349,7 +358,7 @@ footer {
   margin: 0;
   height: 880px;
   color: white;
-  background-color: #282323;
+  background-color: var(--vinho-fundo);
 }
 
 footer > img {
@@ -398,7 +407,7 @@ footer > a#entre-em-contato {
   color: white;
   padding: 12px 20px;
   border-radius: 99999px;
-  background-color: #7c0f0c;
+  background-color: var(--vinho);
 }
 
 footer > h2#redes {
