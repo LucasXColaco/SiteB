@@ -250,6 +250,11 @@ section#avaliacao-clientes > h1 {
   font-size: 50px;
 }
 
+section#avaliacao-clientes > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 section#avaliacao-clientes > div > article {
   display: block;
   width: 350px;
