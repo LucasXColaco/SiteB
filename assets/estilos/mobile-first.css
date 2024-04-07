@@ -291,6 +291,10 @@ section#contato > article > p {
   color: white !important;
 }
 
+section#contato > article > p > a{
+  color: #7c0f0c;
+}
+
 section#contato > article > p:nth-child(2) {
   margin-bottom: 0;
 }
