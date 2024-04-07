@@ -124,7 +124,7 @@ section#apresentacao > h1 {
   padding-left: 20px;
   font-size: 60px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 section#apresentacao > h1 > span.red {
@@ -133,7 +133,7 @@ section#apresentacao > h1 > span.red {
 
 section#apresentacao > p {
   width: 75vw;
-  margin-left: 20px;
+  text-align: center;
   margin-right: 20px;
   margin-bottom: 70px;
 }
@@ -164,19 +164,19 @@ section#produtos {
 section#produtos > h1 {
   padding-left: 20px;
   font-size: 47px;
-  text-align: left;
+  text-align: center;
 }
 
 section#produtos > div > div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   height: 454px;
 }
 
 section#produtos > div > div > h2 {
-  padding-left: 20px;
   font-size: 27px;
-  text-align: left;
+  text-align: center;
 }
 
 section#produtos > div > div > h2:nth-child(1) {
@@ -203,7 +203,7 @@ section#quem-somos {
 section#quem-somos > h1 {
   padding-left: 20px;
   font-size: 70px;
-  text-align: left;
+  text-align: center;
 }
 
 section#quem-somos > article {
@@ -226,7 +226,7 @@ section#quem-somos > article > div > img {
 section#quem-somos > article > h2 {
   padding-left: 20px;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
 }
 
 section#quem-somos > article > iframe {
@@ -248,7 +248,7 @@ section#avaliacao-clientes {
 
 section#avaliacao-clientes > h1 {
   padding-left: 20px;
-  text-align: left;
+  text-align: center;
   font-size: 50px;
 }
 
