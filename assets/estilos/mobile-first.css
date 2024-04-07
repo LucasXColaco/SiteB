@@ -168,6 +168,8 @@ section#produtos > h1 {
 }
 
 section#produtos > div > div {
+  display: flex;
+  flex-wrap: wrap;
   height: 454px;
 }
 
