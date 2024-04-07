@@ -224,7 +224,6 @@ section#quem-somos > article > div > img {
 }
 
 section#quem-somos > article > h2 {
-  padding-left: 20px;
   font-size: 30px;
   text-align: center;
 }
@@ -247,7 +246,6 @@ section#avaliacao-clientes {
 }
 
 section#avaliacao-clientes > h1 {
-  padding-left: 20px;
   text-align: center;
   font-size: 50px;
 }
