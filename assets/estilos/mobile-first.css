@@ -306,7 +306,7 @@ section#contato > article > p {
 }
 
 section#contato > article > p > a{
-  color: var(--vinho);
+  color: #d61e18;
 }
 
 section#contato > article > p:nth-child(2) {
