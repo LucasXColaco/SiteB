@@ -353,7 +353,7 @@ button#whatsapp > a {
   border: none;
   border-radius: 50%;
   background-color: var(--verde-whats);
-  background-image: url("../imagens/WhatsApp.png");
+  background-image: url("../imagens/WhatsApp.svg");
   background-size: cover;
 }
 
