@@ -59,7 +59,7 @@
     padding-bottom: 0px;
   }
 
-  header > nav > menu > a#fale-conosco {
+  header > nav > menu > a.fale-conosco {
     position: static;
     padding: 12px 30px;
     margin-right: 100px;
@@ -103,7 +103,7 @@
     margin-bottom: 50px;
   }
 
-  section#apresentacao > a#fale-conosco {
+  section#apresentacao > a.fale-conosco {
     width: 300px;
     margin: 20px 130px;
     margin-bottom: 0;

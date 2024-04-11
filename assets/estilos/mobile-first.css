@@ -95,7 +95,7 @@ header > nav > menu > a:nth-child(4) {
   padding-bottom: 50px;
 }
 
-header > nav > menu > a#fale-conosco {
+header > nav > menu > a.fale-conosco {
   position: relative;
   padding: 12px 30px;
   margin-top: 20px;
@@ -138,7 +138,7 @@ section#apresentacao > p {
   margin-bottom: 70px;
 }
 
-section#apresentacao > a#fale-conosco {
+section#apresentacao > a.fale-conosco {
   display: block;
   margin: 20px 80px;
   margin-bottom: 0;
