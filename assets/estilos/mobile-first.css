@@ -56,7 +56,7 @@ header > nav > img {
   height: 70px;
 }
 
-header > nav > span.material-symbols-outlined {
+header > nav > img.material-symbols-outlined {
   font-size: 60px;
 }
 
@@ -75,7 +75,7 @@ header > nav > menu {
   background-size: cover;
 }
 
-header > nav > menu > span.material-symbols-outlined {
+header > nav > menu > img.material-symbols-outlined {
   margin-top: 80px;
   margin-bottom: 50px;
   font-size: 60px;
@@ -111,7 +111,7 @@ header > nav > menu > a.fale-conosco {
 section#apresentacao {
   height: calc(100dvh - 90px);
   padding-bottom: 30px;
-  /* background-image: url("../imagens/fundo.png"); */
+  background-image: url("../imagens/fundo.png");
   background-color: var(--cinza-destaque);
   background-repeat: no-repeat;
   background-size: cover;

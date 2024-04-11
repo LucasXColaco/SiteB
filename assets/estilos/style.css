@@ -21,7 +21,7 @@
     margin-left: 200px;
   }
 
-  header > nav > span.material-symbols-outlined {
+  header > nav > img.material-symbols-outlined {
     display: none;
   }
 
@@ -37,7 +37,7 @@
     background-size: auto;
   }
 
-  header > nav > menu > span.material-symbols-outlined {
+  header > nav > menu > img.material-symbols-outlined {
     display: none;
     margin-top: 80px;
     margin-bottom: 50px;
