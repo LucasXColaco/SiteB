@@ -111,7 +111,7 @@ header > nav > menu > a#fale-conosco {
 section#apresentacao {
   height: calc(100dvh - 90px);
   padding-bottom: 30px;
-  background-image: url("../imagens/fundo.jpeg");
+  background-image: url("../imagens/fundo.png");
   background-color: var(--cinza-destaque);
   background-repeat: no-repeat;
   background-size: cover;

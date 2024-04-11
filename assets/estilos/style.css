@@ -75,7 +75,7 @@
 
   section#apresentacao {
     height: calc(100vh - 150px);
-    background-image: url("../imagens/fundo.jpeg");
+    background-image: url("../imagens/fundo.png");
     background-color: #d6d6d6;
     background-repeat: no-repeat;
     background-size: cover;
