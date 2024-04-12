@@ -58,6 +58,7 @@ header > nav > a > img {
 
 header > nav > img.material-symbols-outlined {
   width: 60px;
+  height: 60px;
 }
 
 header > nav > menu {
@@ -77,6 +78,7 @@ header > nav > menu {
 
 header > nav > menu > img.material-symbols-outlined {
   width: 35px;
+  height: 35px;
   margin-top: 80px;
   margin-bottom: 50px;
 }
