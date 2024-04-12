@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root{
-  --preto-fundo: #1f1f1f;
+  --preto-fundo: black;
   --vinho-fundo: #201d1d;
   --vinho: #7c0f0c;
   --cinza-leve: #f7f7f7;
@@ -309,7 +309,7 @@ section#contato > article > p {
 }
 
 section#contato > article > p > a{
-  color: #ff0800;
+  color: #d61e18;
 }
 
 section#contato > article > p:nth-child(2) {
