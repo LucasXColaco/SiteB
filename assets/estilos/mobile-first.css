@@ -309,7 +309,8 @@ section#contato > article > p {
 }
 
 section#contato > article > p > a{
-  color: #ff0800;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
 }
 
 section#contato > article > p:nth-child(2) {
