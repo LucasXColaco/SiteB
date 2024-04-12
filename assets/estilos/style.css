@@ -7,7 +7,7 @@
     justify-content: space-between;
   }
 
-  header > nav > img {
+  header > nav > a > img {
     margin-left: 100px;
   }
 

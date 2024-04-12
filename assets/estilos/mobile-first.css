@@ -51,7 +51,7 @@ header > nav {
   width: 100vw;
 }
 
-header > nav > img {
+header > nav > a > img {
   width: 100px;
   height: 70px;
 }
