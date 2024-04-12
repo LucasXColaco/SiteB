@@ -4,7 +4,7 @@
 
 :root{
   --preto-fundo: #1f1f1f;
-  --vinho-fundo: #282323;
+  --vinho-fundo: #201d1d;
   --vinho: #7c0f0c;
   --cinza-leve: #f7f7f7;
   --cinza-destaque: #bdbdbd;
@@ -57,8 +57,7 @@ header > nav > img {
 }
 
 header > nav > img.material-symbols-outlined {
-  color: white;
-  font-size: 60px;
+  width: 60px;
 }
 
 header > nav > menu {
@@ -77,10 +76,9 @@ header > nav > menu {
 }
 
 header > nav > menu > img.material-symbols-outlined {
-  color: white;
+  width: 35px;
   margin-top: 80px;
   margin-bottom: 50px;
-  font-size: 60px;
 }
 
 header > nav > menu > a {
