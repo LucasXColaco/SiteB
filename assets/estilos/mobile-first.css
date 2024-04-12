@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root{
-  --preto-fundo: black;
   --vinho-fundo: #201d1d;
   --vinho: #7c0f0c;
   --cinza-leve: #f7f7f7;
@@ -20,7 +19,7 @@ html {
 }
 
 main {
-  background-color: var(--preto-fundo);
+  background-color: black;
   font-family: "Public Sans", sans-serif;
 }
 
@@ -289,7 +288,7 @@ section#contato {
 section#contato > article {
   width: 100%;
   color: white;
-  background-color: var(--preto-fundo);
+  background-color: black;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.407);
 }
 
