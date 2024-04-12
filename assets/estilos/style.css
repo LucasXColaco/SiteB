@@ -1,24 +1,14 @@
 @media screen and (min-width: 768px) {
   header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     height: 150px;
-    color: white;
-    background-color: #282323;
   }
 
-  header > nav {
-    display: flex;
+  header > nav{
     justify-content: space-between;
-    align-items: center;
-    width: 100vw;
   }
 
   header > nav > img {
-    width: 100px;
-    height: 70px;
-    margin-left: 200px;
+    margin-left: 100px;
   }
 
   header > nav > img.material-symbols-outlined {
