@@ -124,7 +124,7 @@
     padding-top: 0;
   }
 
-  section#produtos > h1 {
+  section#produtos > h2 {
     margin-top: 100px;
     margin-bottom: var(--gap-xs);
     font-size: 2.5em;
@@ -150,14 +150,14 @@
     margin-left: calc(var(--gap-xxl)/2);
   }
 
-  section#produtos > div > div > h2 {
+  section#produtos > div > div > h3 {
     padding-left: 20px;
     margin-bottom: var(--gap-m);
     font-size: 1.3em;
     text-align: center;
   }
 
-  section#produtos > div > div > h2:nth-child(1) {
+  section#produtos > div > div > h3:nth-child(1) {
     margin-top: 0;
   }
 
@@ -184,7 +184,7 @@
     margin-bottom: 200px;
   }
 
-  section#quem-somos > h1 {
+  section#quem-somos > h2 {
     margin-top: 0;
     margin-bottom: var(--gap-s);
     font-size: 2.5em;
@@ -223,7 +223,7 @@
     border-radius: 5px;
   }
 
-  section#quem-somos > article > h2 {
+  section#quem-somos > article > h3 {
     width: 100%;
     font-size: 1.4em;
     text-align: center;
@@ -249,7 +249,7 @@
     background-color: white;
   }
 
-  section#avaliacao-clientes > h1 {
+  section#avaliacao-clientes > h2 {
     width: 100%;
     padding-bottom: 0;
     margin-bottom: var(--gap-s);
@@ -276,7 +276,7 @@
     margin-top: 0;
   }
 
-  section#avaliacao-clientes > div > article > h2 {
+  section#avaliacao-clientes > div > article > h3 {
     padding-top: 10px;
     margin-left: 20px;
     font-size: 1.2em;
