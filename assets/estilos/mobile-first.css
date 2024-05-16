@@ -50,7 +50,8 @@ header {
   align-items: center;
   background-color: white;
   color: white;
-  box-shadow: 0px 0px 15px rgba(39, 58, 80, .2);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 header > nav {
