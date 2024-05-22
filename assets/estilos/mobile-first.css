@@ -9,12 +9,12 @@
   --cinza-destaque: #bdbdbd;
   --verde-whats: #25d366;
   --secundary-bg: #eeeeee;
-  --gap-xs: 0.128em;
-  --gap-s: 0.272em;
-  --gap-m: 0.618em;
-  --gap-l: 1em;
-  --gap-xl: 1.618em;
-  --gap-xxl: 2.618em;
+  --gap-xs: 0.128rem;
+  --gap-s: 0.272rem;
+  --gap-m: 0.618rem;
+  --gap-l: 1rem;
+  --gap-xl: 1.618rem;
+  --gap-xxl: 2.618rem;
 }
 
 body,
