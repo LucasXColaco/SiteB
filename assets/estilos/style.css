@@ -1,4 +1,18 @@
 @media screen and (min-width: 768px) {
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #eeeeee;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
+    border-radius: 999999px;
+    border: 1px solid #ffffff;
+  }
+
   header > nav{
     justify-content: space-around;
   }

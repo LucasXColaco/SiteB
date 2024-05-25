@@ -17,6 +17,20 @@
   --gap-xxl: 2.618rem;
 }
 
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #eeeeee;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #a9a9a9;
+  border-radius: 999999px;
+  border: 1px solid #ffffff;
+}
+
 body,
 html {
   height: 100vh;
